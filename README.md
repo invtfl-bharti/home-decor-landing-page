@@ -43,7 +43,7 @@ You can see a live preview here: [will be updated soon...]
 Explore the various styles and features used or added of my very first E-commerce website.
 
 ## Contributing
-If you'd like to contribute to Daisy Delights, feel free to fork the repository and submit a pull request.  We welcome contributions to improve the user experience ,add new features or enhance the Frontend using HMTL and CSS.
+If you'd like to contribute to LIFEstyle, feel free to fork the repository and submit a pull request.  We welcome contributions to improve the user experience ,add new features or enhance the Frontend using HMTL and CSS.
 
 ## Contact
 If you have any questions or feedback, feel free to reach out:
