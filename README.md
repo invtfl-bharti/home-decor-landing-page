@@ -10,6 +10,7 @@ Welcome to the Home Decor Landing Page repository! This repository contains code
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Contact](#contact)
+- [LoginPage](#login)
 
 ## Description
 
@@ -53,3 +54,6 @@ If you have any questions or feedback, feel free to reach out:
     bhartijayprakash19@gmail.com
 
 This project is a part of my learning in web development and also a first project. If you have questions or suggestions, feel free to open an issue or reach out to me. Thank You!
+
+## LoginPage
+-Updates: [will be updated soon]
