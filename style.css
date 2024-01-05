@@ -33,7 +33,7 @@ body {
 
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ body {
     font-family: 'Kaushan Script', cursive;
     transition: all 100ms ease;
     padding-inline: 0.8rem;
-    
+
 
 }
 
@@ -247,5 +247,37 @@ body {
     background-color: rgb(235, 147, 129);
 }
 
+.login-section {
+    border: 2px solid black;
+    height: 30rem;
+    width: 39%;
+    position: absolute;
+    left: 27%;
+    top: 62%;
 
+}
 
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 15px 5px 5px 5px;
+
+}
+
+.wrapper {
+    position: absolute;
+    /* left: 4%; */
+    top: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.login-info{
+    border: 2px solid black;
+    height: 2.4rem;
+    height: 60%;
+    width: 30%;
+}
