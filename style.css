@@ -275,9 +275,24 @@ h1 {
     gap: 0.6rem;
 }
 
-.login-info{
-    border: 2px solid black;
-    height: 2.4rem;
-    height: 60%;
-    width: 30%;
+.login-info {
+    /* border: 2px solid black; */
+position: relative;
+    margin-left: 20%;
+    height: 2.5rem;
+    width: 110%;
+    background-color: whitesmoke;
+}
+
+.login-info input{
+    
+position: absolute;
+top: 0.6rem;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
