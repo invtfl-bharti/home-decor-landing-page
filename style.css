@@ -254,6 +254,7 @@ body {
     position: absolute;
     left: 27%;
     top: 62%;
+    /* min-height: 100vh; */
 
 }
 
@@ -264,35 +265,62 @@ h1 {
 
 }
 
-.wrapper {
-    position: absolute;
-    /* left: 4%; */
-    top: 20%;
+.login-main {
+    margin-top: 15%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    margin-left: 20%;
     gap: 0.6rem;
 }
 
-.login-info {
-    /* border: 2px solid black; */
-position: relative;
-    margin-left: 20%;
-    height: 2.5rem;
-    width: 110%;
-    background-color: whitesmoke;
+.user-details {
+    border: 2px solid black;
+    height: 2.7rem;
+    width: 70%;
+    background-color: white;
+    border-radius: 2rem;
 }
 
-.login-info input{
-    
-position: absolute;
-top: 0.6rem;
+
+.user-password {
+    border: 2px solid black;
+    height:2.7rem;
+    width: 70%;
+    background-color: white;
+    border-radius: 2rem;
 }
 
-.remember-me {
+input {
+    margin-top: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    padding: 2px 2px 2px 2px;
+}
+
+.bx {
+    margin-left: 15rem;
+    margin-bottom:5rem;
+}
+
+.remember-forget {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
+
 }
+
+
+.btn{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 30%;
+    margin-left: 22%;
+}
+
+
+
