@@ -286,7 +286,7 @@ h1 {
 
 .user-password {
     border: 2px solid black;
-    height:2.7rem;
+    height: 2.7rem;
     width: 70%;
     background-color: white;
     border-radius: 2rem;
@@ -303,7 +303,7 @@ input {
 
 .bx {
     margin-left: 15rem;
-    margin-bottom:5rem;
+    margin-top: -50%;
 }
 
 .remember-forget {
@@ -311,16 +311,22 @@ input {
     justify-content: space-around;
     align-items: center;
     gap: 4rem;
-
+    
 }
 
 
-.btn{
+.btn {
     margin-top: 1rem;
     height: 2rem;
     width: 30%;
     margin-left: 22%;
 }
+
+.remember-forget a{
+    color: white;
+    text-decoration: none;
+}
+
 
 
 
