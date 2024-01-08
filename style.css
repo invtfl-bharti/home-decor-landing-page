@@ -326,7 +326,9 @@ input {
     color: white;
     text-decoration: none;
 }
-
+.remember-forget a:hover{
+    color: black;
+}
 
 
 
