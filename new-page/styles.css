@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image {
+    position: relative;
+}
+
+.background-image img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+    position: absolute;
+    top: -1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: maroon;
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    border-bottom: 0.5px solid rgb(250, 218, 176);
+
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    ;
+}
+
+.logo p {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.3rem;
+    color: whitesmoke
+}
+
+.logo span {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+.main-items ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 6rem;
+    gap: 1rem;
+}
+
+.main-items ul li {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    list-style-type: none;
+    font-family: 'Kaushan Script', cursive;
+    transition: all 100ms ease;
+    padding-inline: 0.8rem;
+
+
+}
+
+.main-items ul li:hover {
+    color: rgb(250, 218, 176);
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 1px solid rgb(250, 218, 176);
+    padding-bottom: 0.5rem;
+
+}
+
+.main {
+    position: relative;
+    background-color: maroon;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    height: 228vh;
+    width: 90vw;
+    border-radius: 0 0 45vw 45vw;
+
+
+}
+
+.login-section {
+    border-radius: 2rem;
+
+    height: 30rem;
+    width: 39%;
+    position: absolute;
+
+    right: 5%;
+    left: 30%;
+    top: 22%;
+
+    background: transparent;
+    
+    backdrop-filter: blur(15px);
+
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px 5px 5px 5px;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.login-main {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 16%;
+    gap: 1rem;
+}
+
+.user-details {
+    border: 2px solid black;
+    height: 2.7rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 2rem;
+    /* position: relative; */
+
+}
+
+
+.user-password {
+    border: 2px solid black;
+    height: 2.7rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.user-details input,
+.user-password input {
+    width: 80%;
+    height: 1.8rem;
+    margin-top: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    padding: 2px 2px 2px 10px;
+
+
+}
+
+
+
+
+
+.remember-forget {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.remember-forget {
+    color: white;
+    font-size: 1rem;
+}
+
+
+.btn {
+    margin-top: 1rem;
+    height: 2.7rem;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 2rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+
+.btn:hover {
+    background-color: rgb(199, 230, 238);
+    transition: 500ms ease;
+}
+
+.remember-forget a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.2rem;
+
+}
+
+
+
+.remember-forget a:hover {
+    color: black;
+}
+
+.register-link p {
+    color: white;
+    font-size: 1rem;
+}
+
+.register-link a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    color: black;
+}
+
+
+
+
+/* .wrapper {
+    position: absolute;
+    /* left: 4%; */
+/* top: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.6rem; */
+/* }  */
