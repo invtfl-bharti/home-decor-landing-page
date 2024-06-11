@@ -21,6 +21,7 @@ This project showcases a visually appealing landing page for a home decor websit
 You can see a live preview here: 
 ```bash
 https://invtfl-bharti.github.io/home-decor-landing-page/
+```
 
 ## Technologies Used
 
